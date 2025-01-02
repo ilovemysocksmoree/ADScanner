@@ -18,7 +18,7 @@ type LDAPConfig struct {
 
 func GetLDAPConfig() *LDAPConfig {
 	return &LDAPConfig{
-		ServerAddr:   "10.167.11.40",
+		ServerAddr:   "192.168.254.16",
 		ServerPort:   389,
 		BindUser:     "Administrator",
 		BindPassword: "admin@123",
